@@ -20,6 +20,6 @@ const createSchema = new mongoose.Schema({
     time: String
 });
 
-const PrivateModel = mongoose.model("recruities", createSchema);
+const PrivateModel = mongoose.model("usersdetails", createSchema);
 
 module.exports = PrivateModel;
